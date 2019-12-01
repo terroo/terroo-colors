@@ -75,8 +75,8 @@ If you need more syntax highlighting, you can use
 ## Links
 
 [GitHub](https://github.com/terroo/terroo-colors) ·
-[Vim.org](https://www.vim.org/scripts/script.php?script_id=5490) ·
-[Vim Awesome](https://vimawesome.com/plugin/minimalist-vim)
+[Vim.org](https://www.vim.org/) ·
+[Blog](https://en.terminalroot.com.br/)
 
 ## License
 
