@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://terminalroot.com.br/assets/img/terminalroot.jpg" alt="Terroo Colors on HTML">
+    <img src="terroo-colors-min.jpg" alt="Terroo Colors on HTML">
 </p>
 
 # Terroo Colors
