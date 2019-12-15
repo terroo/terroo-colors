@@ -72,16 +72,16 @@ endfunction
 
 let s:white       = { "gui": "#E8E8E3", "cterm": "252" }
 let s:white2      = { "gui": "#d8d8d3", "cterm": "250" }
-let s:black       = { "gui": "#272822", "cterm": "234" }
-let s:lightblack  = { "gui": "#2D2E27", "cterm": "235" }
-let s:lightblack2 = { "gui": "#383a3e", "cterm": "236" }
-let s:lightblack3 = { "gui": "#3f4145", "cterm": "237" }
-let s:darkblack   = { "gui": "#211F1C", "cterm": "233" }
-let s:grey        = { "gui": "#8F908A", "cterm": "243" }
-let s:lightgrey   = { "gui": "#575b61", "cterm": "237" }
-let s:darkgrey    = { "gui": "#64645e", "cterm": "239" }
-let s:warmgrey    = { "gui": "#75715E", "cterm": "59" }
-let s:atombg      = { "gui": "#2d3037", "cterm": "234" }
+let s:black       = { "gui": "#ffffff", "cterm": "234" }
+let s:lightblack  = { "gui": "#ffffff", "cterm": "0" }
+let s:lightblack2 = { "gui": "#ffffff", "cterm": "0" }
+let s:lightblack3 = { "gui": "#ffffff", "cterm": "0" }
+let s:darkblack   = { "gui": "#ffffff", "cterm": "0" }
+let s:grey        = { "gui": "#8F908A", "cterm": "0" }
+let s:lightgrey   = { "gui": "#ffffff", "cterm": "237" }
+let s:darkgrey    = { "gui": "#ffffff", "cterm": "239" }
+let s:warmgrey    = { "gui": "#ffffff", "cterm": "59" }
+let s:atombg      = { "gui": "#ffffff", "cterm": "0" }
 let s:atomfg      = { "gui": "#a9b1bd", "cterm": "234" }
 
 let s:pink        = { "gui": "#F92772", "cterm": "197" }
@@ -391,3 +391,8 @@ else
         \ s:br_cyan.gui,
         \ s:br_white.gui]
 endif
+
+" Final Adjustments
+highlight Normal ctermfg=grey ctermbg=NONE
+highlight LineNr ctermfg=grey ctermbg=NONE
+highlight Visual ctermfg=red ctermbg=white
