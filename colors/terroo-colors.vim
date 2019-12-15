@@ -393,6 +393,10 @@ else
 endif
 
 " Final Adjustments
+" -----------------
+" foreground gray and background default terminal
 highlight Normal ctermfg=grey ctermbg=NONE
+" numbers line equal text field
 highlight LineNr ctermfg=grey ctermbg=NONE
+" when select on visual mode, background: white and foreground: red.
 highlight Visual ctermfg=red ctermbg=white
