@@ -1,6 +1,6 @@
 " File:       terroo-colors.vim
-" Maintainer: Matthew Martelle (mcmartelle)
-" URL:        https://github.com/mcmartelle/vim-terroo-colors
+" Maintainer: Marcos Oliveira (terminalroot)
+" URL:        https://github.com/terroo/terroo-colors
 " License:    MIT
 "
 " The colour palette is from http://www.colourlovers.com/
